@@ -151,7 +151,8 @@ scanme.nmap.org,como lo indica el paquete (RST, ACK) enviado desde el servidor.
 ❖ El paquete llegó al servidor, pero fue rechazado, lo que sugiere que el puerto está cerrado o filtrado. 
 ❖ 100% de pérdida de paquetes según hping3. 
 
-Recomendaciones 
+Recomendaciones:
+
 1. Filtrado de paquetes no autorizados: Se recomienda configurar un firewall que bloquee paquetes ICMP innecesarios y conexiones entrantes a puertos no utilizados con el fin de evitar escaneos no autorizados. 
 2. Uso obligatorio de cifrado: Asegurar que todo el tráfico web pase por HTTPS y evitar usar HTTP.  
 3. Evitar protocolos obsoletos o inseguros como FTP (puerto 21), por protocolos más seguros como SFTP que se ejecuta sobre SSH (Puerto 22). 
@@ -161,6 +162,7 @@ Recomendaciones
 7. Implementar políticas de uso de contraseñas seguras y autenticación multifactor. 
 
 Conclusiones:
+
 Los hallazgos más importantes que se obtuvieron en este análisis, fueron los siguientes:  
 Comportamiento de red ante escaneos: El uso de hping3 permitió verificar que 
 muchos servidores (como google.com) ignoran o rechazan ciertos tipos de paquetes, lo 
