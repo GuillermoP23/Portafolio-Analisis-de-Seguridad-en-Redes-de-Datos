@@ -137,7 +137,8 @@ Recomendaciones
 5. Revisar regularmente los puertos abiertos con escaneos de red internos y asegurarse de que los servicios asociados estén protegidos. 
 6. Educar a los usuarios sobre los riesgos de sitios no seguros, ataques comunes y mejores prácticas. 
 7. Implementar políticas de uso de contraseñas seguras y autenticación multifactor. 
-Conclusiones 
+
+Conclusiones:
 Los hallazgos más importantes que se obtuvieron en este análisis, fueron los siguientes:  
 Comportamiento de red ante escaneos: El uso de hping3 permitió verificar que 
 muchos servidores (como google.com) ignoran o rechazan ciertos tipos de paquetes, lo 
