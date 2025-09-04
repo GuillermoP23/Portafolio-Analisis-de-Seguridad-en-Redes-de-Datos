@@ -1,6 +1,6 @@
 # Portafolio-An-lisis-de-Seguridad-en-Redes-de-Datos
 
-Introducción 
+Introducción: 
 El objetivo de este análisis es evaluar el comportamiento y la seguridad de una red mediante el uso de herramientas especializadas en escaneo y análisis de tráfico. Utilizando Kali Linux como entorno principal, se realizaron pruebas activas con hping3, enviando distintos tipos de paquetes a hosts remotos para analizar respuestas del sistema y posibles configuraciones de seguridad. Además, se utilizó Wireshark para capturar y analizar el tráfico de red generado durante sesiones de tráfico, permitiendo identificar protocolos, puertos y posibles vulnerabilidades presentes.
 
 
